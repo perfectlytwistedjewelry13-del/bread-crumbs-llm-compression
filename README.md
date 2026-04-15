@@ -45,7 +45,7 @@ Tests how compression changes under:
 - Easy entry point  
 - Generates heatmap + JSON
 
-- # Install dependencies (once)
+# Install dependencies (once)
 pip install numpy pandas pygguf zstandard matplotlib seaborn tqdm
 
 # Run a quick scan

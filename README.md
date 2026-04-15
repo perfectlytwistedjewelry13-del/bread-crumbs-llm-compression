@@ -43,7 +43,13 @@ Tests how compression changes under:
 `breadcrumbs_v3.py`
 
 - Easy entry point  
-- Generates heatmap + JSON  
+- Generates heatmap + JSON
+
+- # Install dependencies (once)
+pip install numpy pandas pygguf zstandard matplotlib seaborn tqdm
+
+# Run a quick scan
+python gguf_compression_probe.py --model models/gemma-2-9b.gguf --chunk-size 1048576
 
 ## Usage
 
